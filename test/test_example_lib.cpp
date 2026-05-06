@@ -8,7 +8,7 @@ TEST(ExampleLibTest, Add) {
     EXPECT_EQ(lib.add(0, 0), 0);
 }
 
-TEST(ExampleLibTest, Subtract) {
+TEST(ExampleLibTest1, Subtract) {
     ExampleLib lib;
     EXPECT_EQ(lib.subtract(10, 3), 7);
     EXPECT_EQ(lib.subtract(0, 5), -5);
