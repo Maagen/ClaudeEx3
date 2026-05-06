@@ -1,0 +1,12 @@
+# ESP-IDF build output
+build/
+sdkconfig
+
+# Test build output
+test/build/
+
+# Dependencies fetched at configure time
+test/_deps/
+
+# macOS
+.DS_Store
